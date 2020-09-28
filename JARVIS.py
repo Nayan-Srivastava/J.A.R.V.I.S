@@ -121,6 +121,7 @@ def news():
 # Function to tell features
 
 def features():
+
     f=['Tell time','Tell date',
        'Tell a Joke','Search things in Wikipedia',
        'Send Emails through Gmail','Search in google chrome',
@@ -129,6 +130,7 @@ def features():
        'Tell what you told me to remember','Take Screenshots',
        'Tell about CPU status','Tell battery Percentage',
        'Tell News','Open System application']
+    speak("I can..")
     for i in f:
         print(i)
     for i in f:
